@@ -367,28 +367,35 @@ QFN-32-1EP_5x5mm_P0.5mm_EP3.7x3.7mm:
   #ipc_density: 'least' #overwrite global value for this device.
   # custom_name_format:
   body_size_x:
-    nominal: 5
-    tolerance: 0.05
+    minimum: 4.95
+    nominal: 5.00
+    maximum: 5.05
   body_size_y:
-    nominal: 5
-    tolerance: 0.05
+    minimum: 4.95
+    nominal: 5.00
+    maximum: 5.05
   body_height:
+    minimum: 0.80
     nominal: 0.85
-    tolerance: 0.05
-
+    maximum: 0.90
   lead_width:
+    minimum: 0.20
     nominal: 0.25
-    tolerance: 0.05
+    maximum: 0.30
   lead_len:
-    nominal: 0.4
-    tolerance: 0.05
+    minimum: 0.35
+    nominal: 0.40
+    maximum: 0.45
 
   EP_size_x:
-    nominal: 3.7
-    tolerance: 0.05
+    minimum: 3.65
+    nominal: 3.70
+    maximum: 3.75
   EP_size_y:
-    nominal: 3.7
-    tolerance: 0.05
+    minimum: 3.65
+    nominal: 3.70
+    maximum: 3.75
+    
   # EP_paste_coverage: 0.65
   EP_num_paste_pads: [2, 2]
 
