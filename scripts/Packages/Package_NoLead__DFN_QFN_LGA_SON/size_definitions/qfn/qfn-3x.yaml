@@ -374,7 +374,7 @@ QFN-32-1EP_5x5mm_P0.5mm_EP3.7x3.7mm:
     minimum: 4.95
     nominal: 5.00
     maximum: 5.05
-  body_height:
+  overall_height:
     minimum: 0.80
     nominal: 0.85
     maximum: 0.90
