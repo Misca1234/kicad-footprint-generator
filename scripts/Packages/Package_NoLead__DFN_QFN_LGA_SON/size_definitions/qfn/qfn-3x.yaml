@@ -400,7 +400,7 @@ QFN-32-1EP_5x5mm_P0.5mm_EP3.7x3.7mm:
   EP_num_paste_pads: [2, 2]
 
   thermal_vias:
-    count: [2, 4]
+    count: [3, 3]
     drill: 0.2
     # min_annular_ring: 0.15
     paste_via_clearance: 0.1
